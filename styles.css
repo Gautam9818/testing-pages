@@ -1,0 +1,48 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Overall body styling */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Heading styling */
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Paragraph styling */
+  p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Optional: Styling for the link around the button */
+  .button-link {
+    text-decoration: none;
+  }
+  
